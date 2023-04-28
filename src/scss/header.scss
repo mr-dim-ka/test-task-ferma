@@ -1,0 +1,25 @@
+//====================================================================================================
+
+.header {
+	@include adaptiveValue("padding-top", 20, 10);
+	@include adaptiveValue("padding-bottom", 20, 10);
+	// .header__container
+	&__container {
+	}
+	// .header__inner
+	&__inner {
+		@media (max-width: $mobile) {
+			display: flex;
+			justify-content: center;
+		}
+	}
+	// .header__logo
+	&__logo {
+		display: inline-block;
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+//====================================================================================================

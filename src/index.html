@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__mainpage mainpage">
+					<div class="mainpage__container">
+						<div class="mainpage__inner">
+							<div class="mainpage__body">
+								<div class="mainpage__box">
+									<h1 class="mainpage__title">
+										Lorem - <br> ipsum dolor sit amet, consectetuer adipiscing elit.
+									</h1>
+									<ul class="mainpage__list">
+										<li class="mainpage__item">Aenean commodo ligula eget dolor</li>
+										<li class="mainpage__item">Aenean massa.</li>
+										<li class="mainpage__item">Donec pede justo, fringilla vel, aliquet</li>
+										<li class="mainpage__item">In enim justo, rhoncus ut, imperdiet Integer tincidunt.</li>
+									</ul>
+									<a class="mainpage__btn" href="#"><img src="@img/app-store.svg" alt="app store"></a>
+									<a class="mainpage__link" href="#">Quisque rutrum</a>
+								</div>
+							</div>
+							<div class="mainpage__decors decors-mainpage">
+								<div class="decors-mainpage__phone">
+									<div class="decors-mainpage__phone-ibg">
+										<img src="@img/phone.png" alt="phone">
+									</div>
+								</div>
+								<div class="decors-mainpage__big-circle decors-mainpage__big-circle_1"></div>
+								<div class="decors-mainpage__big-circle decors-mainpage__big-circle_2"></div>
+								<div class="decors-mainpage__big-circle decors-mainpage__big-circle_3"></div>
+								<div class="decors-mainpage__small-circle decors-mainpage__small-circle_1"></div>
+								<div class="decors-mainpage__small-circle decors-mainpage__small-circle_2"></div>
+								<div class="decors-mainpage__small-circle decors-mainpage__small-circle_3"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>
